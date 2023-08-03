@@ -102,10 +102,34 @@ h4 {
     margin-bottom: auto;
 }
 
+
+
+/* Quote*/
+
+.quote {
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 35px 350px;
+    margin-top: 70px;
+    flex: 0 1 650px;
+    min-width: 675px;
+}
+
+.quote > .author {
+    text-align: right;
+}
 /*footer*/
 
+.foot {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
 .foot > .sign {
     border: 2px solid white;
     width: 102px;
     height: 32px;
+    margin: auto;
 }
