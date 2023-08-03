@@ -36,8 +36,16 @@ ul > li {
     flex: 1 1 auto;
 }
 
+/* presentation div*/
+
 .presentation {
     background-color: #1F2937;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
 }
 
 .left > h2 {
@@ -63,9 +71,36 @@ ul > li {
     border: 2px solid #3882F6;
 }
 
+h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+/*content*/
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
 
 
+.square {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
 
+.square > img {
+    margin-bottom: auto;
+}
 
 /*footer*/
 
