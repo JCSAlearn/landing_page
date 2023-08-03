@@ -54,6 +54,23 @@ ul > li {
 .sign {
     background-color: #3882F6;
     color: #E5E7EB;
+    width: 100px;
+    height: 30px;
     padding: 0px 20px;
-    border-radius: 10%;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: none;
+    border: 2px solid #3882F6;
+}
+
+
+
+
+
+/*footer*/
+
+.foot > .sign {
+    border: 2px solid white;
+    width: 102px;
+    height: 32px;
 }
