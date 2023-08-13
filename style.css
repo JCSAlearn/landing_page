@@ -126,10 +126,24 @@ h4 {
     background-color: #3882F6;
     color: #E5E7EB;
     border: 2px solid #E5E7EB;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.text > p, .text > h4 {
+    text-align: left;
+    margin: 0;
 }
 .foot > .sign {
     border: 2px solid white;
     width: 102px;
     height: 32px;
     margin: auto;
+    display: inline-block;
 }
